@@ -31,7 +31,7 @@ import com.theone.mvvm.core.app.ext.launch
  */
 class MineViewModel : BaseRequestVM<UserInfoRequest>() {
 
-    val icon = StringObservableField("https://www.hifini.com/view/img/logo.png")
+    val icon = StringObservableField("https://www.hifiti.com/view/img/logo.png")
     val nickName = StringObservableField("未登录")
 
     override fun createRequest(): UserInfoRequest {

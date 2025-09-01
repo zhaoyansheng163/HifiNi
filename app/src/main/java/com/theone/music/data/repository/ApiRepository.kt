@@ -101,7 +101,7 @@ class ApiRepository {
 
 
     /**
-     * https://hifini.com/
+     * https://hifiti.com/
      * url = forum-15.htm
      */
     suspend fun request(url: String, vararg formatArgs: Any): String {

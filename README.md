@@ -2,7 +2,7 @@
 
 ### 介绍
 
-音乐资源 - [HiFiNi](https://www.hifini.com/)
+音乐资源 - [HiFiNi](https://www.hifiti.com/)
 
 歌词资源 - [LRC歌词网](https://www.lrcgeci.com/)
 
@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/32156330/174224629-e317f3fe-d9ff-4e92-
 
 ### 功能
 
-1. [HiFiNi](https://www.hifini.com/)用户登录、注册功能（使用`WorkManger`实现每天自动签到功能）。
+1. [HiFiNi](https://www.hifiti.com/)用户登录、注册功能（使用`WorkManger`实现每天自动签到功能）。
 2. 热门、排行、分类音乐数据分页显示。
 3. 按照歌手、歌曲搜索。
 4. 使用`Room`，实现音乐本地播放记录、收藏功能。

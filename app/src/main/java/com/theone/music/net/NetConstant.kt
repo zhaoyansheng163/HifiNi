@@ -29,7 +29,7 @@ import rxhttp.wrapper.annotation.DefaultDomain
 object NetConstant {
 
     @DefaultDomain
-    const val BASE_URL = "https://www.hifini.com/"
+    const val BASE_URL = "https://www.hifiti.com/"
 
     /**
      * 登录 - 拿取[cookie]里的[bbs_token]

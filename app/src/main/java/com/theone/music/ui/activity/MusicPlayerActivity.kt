@@ -91,7 +91,7 @@ class MusicPlayerActivity : BaseCoreActivity<MusicPlayerViewModel, BaseTabInTitl
     override fun initView(root: View) {
         // 首先就是拿到传递过来的数据
         (mMusic ?: getCurrentMusic()).let { music ->
-            // 赋值请求地址 https://hifiti.com/thread-35837.htm
+            // 赋值请求地址 https://hifini.com.cn/thread-35837.htm
             getViewModel().link = music.shareUrl
             with(PlayerManager.getInstance()) {
                 currentPlayingMusic?.run {

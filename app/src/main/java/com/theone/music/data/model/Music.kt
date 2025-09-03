@@ -70,7 +70,7 @@ data class Music(
 
     fun getCoverUrl():String {
         if (!cover.startsWith("http")) {
-            cover = "https://www.hifiti.com/upload/forum/1.png"
+            cover = "https://www.hifini.com.cn/upload/forum/1.png"
         }
         return cover
     }

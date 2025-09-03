@@ -64,7 +64,7 @@ class DataRepository {
     }
 
     /**
-     * https://hifiti.com/
+     * https://hifini.com.cn/
      * url = forum-15.htm
      */
     suspend fun request(url: String, vararg formatArgs: Any): String {
@@ -74,7 +74,7 @@ class DataRepository {
             //.setCacheMode(CacheMode.READ_CACHE_FAILED_REQUEST_NETWORK)
             // 这是缓存时间
             //.setCacheValidTime(-1)
-            //.setHeader("Host","www.hifiti.com")
+            //.setHeader("Host","www.hifini.com.cn")
             .setCacheMode(CacheMode.ONLY_NETWORK)
             .toStr()
             .await()
@@ -344,7 +344,7 @@ class DataRepository {
     }
 
     suspend fun getMusicInfo(link: String, isReload: Boolean): Music {
-        // 请求 https://hifiti.com/thread-35837.htm
+        // 请求 https://hifini.com.cn/thread-35837.htm
         // response 其实一个html 信息
         // 我们最后想要拿到的是一个ListBean
         val response = request(link)
@@ -352,7 +352,7 @@ class DataRepository {
         val music = parseMusicInfo(response).apply {
             shareUrl = link
             if(!cover.startsWith("http")){
-                cover = "https://www.hifiti.com/upload/forum/1.png"
+                cover = "https://www.hifini.com.cn/upload/forum/1.png"
             }
             if (!playUrl.startsWith("http")) {
                 playUrl = NetConstant.BASE_URL + playUrl

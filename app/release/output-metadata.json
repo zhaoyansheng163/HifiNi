@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.theone.music.release",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 15,
+      "versionName": "1.2.5",
+      "outputFile": "HifiNi_kt_1.2.5_release.apk"
+    }
+  ],
+  "elementType": "File"
+}
